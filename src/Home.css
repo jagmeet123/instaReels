@@ -1,0 +1,115 @@
+.btn-logout{
+    position: fixed;
+    width: 6rem;
+    height: 5rem;
+    bottom: 50px;
+    right:30px;
+    border-radius: 50%;
+}
+
+.posts-container{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.video-card{
+    color: wheat;
+    height: 100%;
+    width:30rem;
+    border:1px solid;
+    position: relative;
+    scroll-snap-align: start;
+    margin: auto;
+}
+
+.like{
+    font-size: 40px;
+    color:#d63031;
+    position: absolute;
+    bottom: 20vh;
+    right:10px;
+}
+
+
+.comment{
+    font-size: 40px;
+    color:white;
+    position: absolute;
+    bottom: 10vh;
+    right:10px;
+}
+
+
+.username {
+    position: absolute;
+    bottom: 20vh;
+    left: 20px;
+  }
+  
+  .song {
+    position: absolute;
+    left: 20px;
+    bottom: 16vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .comment-box {
+    border: 1px solid;
+    height: 45%;
+    width: 100%;
+    background: white;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .comment-box-close-btn {
+    position: absolute;
+    top: 0;
+    border: none;
+    right: 0;
+    color: #0984e3;
+    height: 10%;
+  }
+  
+  .all-comments {
+    margin-top: 4.5vh;
+    height: 80%;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+  .comment-form {
+    height: 10%;
+  }
+  
+  .comment-form input {
+    height: 100%;
+    width: 80%;
+    border: none;
+  }
+  
+  .comment-form button {
+    height: 100%;
+    width: 20%;
+    border: none;
+    color: #0984e3;
+  }
+
+  .btn-upload{
+    position: fixed;
+    height: 5rem;
+    bottom: 200px;
+    right:30px;
+    width: 6rem;
+  }
+
